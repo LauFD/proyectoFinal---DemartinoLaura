@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+    <link rel="icon" href="/assets/Logo pjr re ok.png"> 
+</head>
+
+<body>
+
+    <header class="header" id="header">
+
+        <section class="containerHeader">
+            <div class="headerLogo">
+                <a href="/index.html"><img src="../assets/Logo pjr re ok.png" alt="logopjr" class="logopjr"></a>
+            </div>
+
+            <div class="headerText">
+                <a href="/index.html">Inicio</a>
+            </div>
+
+            <div class="headerText">
+                <a href="/pages/nosotros.html">Nosotros</a>
+            </div>
+
+            <div class="headerText">
+                <a href="/pages/producciones.html">Producciones</a>
+            </div>
+
+            <div class="headerText">
+                <a href="/pages/contacto.html">Contacto</a>
+            </div>
+
+        </section>
+
+    </header>
+
+    <main>
+        <div class="titulosbg">
+            <h1 class="titulos">Contacto</h1>
+        </div>
+        <section class="formulario">
+            <img src="../assets/contactoPhoto.jpg" alt="">
+            <form action="" class="form">
+                <!--ABRIMOS NUESTRO FORM-->
+                <fieldset>
+                    <legend>
+                        <!--AGREGAMOS NUESTRA LEYENDA-->
+                        <h2>Envianos un mensaje</h2>
+                    </legend>
+                    <div class="form__content">
+                        <!--INPUT NOMBRE-->
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
+                    </div>
+
+                    <div class="form__content">
+                        <!--INPUT EMAIL-->
+                        <label for="email">Email</label>
+                        <input type="text" name="email" placeholder="Ingrese su email" required>
+                    </div>
+
+                    <div class="form__content__select">
+                        <!--INPUT SEXO-->
+                        <label for="radio">Seleccioná tu sexo</label>
+                        <label for="sexo">Hombre</label>
+                        <input type="radio" name="sexo" value="hombre">
+                        <label for="sexo">Mujer</label>
+                        <input type="radio" name="sexo" value="mujer">
+                        <label for="sexo">Otro</label>
+                        <input type="radio" name="sexo" value="otro">
+                    </div>
+
+
+                    <div class="form__content">
+                        <!--INPUT MENSAJE-->
+                        <label for="mensaje">Dejá tu mensaje</label>
+
+                        <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form__button">
+                        <input type="submit" class="button" value="Enviar">
+                        <input type="reset" class="button" value="Resetear">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <section class="redes">
+            <div class="red face">
+                <a href=" https://www.facebook.com/pjrproducciones" target="_blank"><img
+                    src="/assets/logo-facebook.png" class="img-footer"></a>
+            </div>
+
+            <div>
+                <p>Nuestras redes</p>
+            </div>
+
+            <div class="red ig">
+                <a href="https://www.instagram.com/pjrproducciones/" target="_blank"><img
+                    src="/assets/logo-instagram.png" class="img-footer"></a>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
