@@ -331,36 +331,26 @@ label {
 }
 
 /*-----FOOTER-----*/
-.redes {
+#card {
     background-color: #0e0029;
-    height: 45px;
+    height: 35px;
     width: 100%;
     position: fixed;
     bottom: 0;
-    display: grid;
-    grid-template-columns: 42% 16% 42%;
+    display: flex;
+    justify-content: center;
 }
 
-.redes p {
-    text-align: center;
+#card-title{
     color: #fff;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-size: 180%;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    padding-top: 2.5px;
 
-}
-
-.face {
-    text-align: end;
-}
-
-.ig {
-    text-align: start;
 }
 
 .img-footer {
-
-    width: 7.5%;
+    width: 35px;
 }
 
 .img-footer:hover {
