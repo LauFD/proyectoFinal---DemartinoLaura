@@ -58,18 +58,18 @@ h3 {
     width: 100%;
     position: fixed;
     display: grid;
-    grid-template-columns: 50% repeat(4, auto);
+    grid-template-columns: 60% repeat(4, auto);
     z-index: 1;
     top: 0;
 }
 
 .headerLogo{
-margin-top: 0.5%;
+margin-top: 0.4%;
 margin-left: 0.8%;
 }
 
 .logopjr {
-    width: 6%;
+    width: 5%;
     transition: all 1s;
 }
 
@@ -79,9 +79,8 @@ margin-left: 0.8%;
 
 .headerText {
     font-family: 'Abel', sans-serif;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 3px;
+    font-size: 25px;
+    padding-top: 5px;
     }
 
 .headerText a{
@@ -91,16 +90,12 @@ margin-left: 0.8%;
 
 .headerText:hover{
     animation: change 1s;
-    transform: scale(0.9);
+    transform: scale(1.3, 1.3);
 }
 
 @keyframes change{
 25%{
-    background-color: #eee;
-    opacity: 40%;
-}
-90%{
-    text-transform: uppercase;
+    opacity: 30%;
 }
 }
 
@@ -326,7 +321,6 @@ margin-left: 0.8%;
     width: 70%;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .form__content textarea {
