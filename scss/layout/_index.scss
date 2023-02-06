@@ -3,7 +3,7 @@
 .inicio {
     background-image: url(/assets/Zeus_044.jpeg);
     background-size: 100%;
-    background-color: #04000a;
+    background-color: $color-bg;
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,9 +35,9 @@
 }
 
 .inicio__parrafo {
-    font-family: 'Abel', sans-serif;
+    font-family: $font-main;
     font-size: 30px;
-    color: #fff;
+    color: $color-font-main;
     text-align: center;
     padding-right: 25%;
 }

@@ -1,12 +1,12 @@
 .card-title {
-    font-family: 'Oswald', sans-serif;
+    font-family: $font-title;
     text-transform: uppercase;
     font-size: auto;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: 0px 10px 10px #939293;
+    text-shadow: 0px 10px 10px $color-font-shadow;
     letter-spacing: 6px;
 
 }

@@ -1,6 +1,6 @@
 /*-----FOOTER-----*/
 #card {
-    background-color: #0e0029;
+    background-color: $color-main;
     height: 35px;
     width: 100%;
     position: fixed;
@@ -10,8 +10,8 @@
 }
 
 #card-title {
-    color: #fff;
-    font-family: 'Abel', sans-serif;
+    color: $color-font-main;
+    font-family: $font-main;
     font-size: 25px;
     padding-top: 2.5px;
 

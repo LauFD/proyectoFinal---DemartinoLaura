@@ -25,8 +25,8 @@
 }
 
 .form {
-    background: #210202;
-    color: #fff;
+    background: $color-second;
+    color: $color-font-main;
     width: 50%;
     height: 100%;
     display: flex;
@@ -42,12 +42,12 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font-family: 'Abel', sans-serif;
+    font-family: $font-main;
 }
 
 .form__content input {
     padding: 10px;
-    font-family: 'Abel', sans-serif;
+    font-family: $font-main;
     ;
     background: #eee;
     border-radius: 5px;
@@ -55,7 +55,7 @@
 
 .form__content__select {
     display: flex;
-    font-family: 'Abel', sans-serif;
+    font-family: $font-main;
     width: 70%;
     align-items: center;
     justify-content: space-between;
@@ -77,8 +77,8 @@ label {
 
 .button {
     /*Botones del formulario*/
-    color: #fff;
-    background-color: #0e0029;
+    color: $color-font-main;
+    background-color: $color-main;
     padding: 10px;
     width: 150px;
     border-radius: 3px;

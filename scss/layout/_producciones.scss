@@ -1,7 +1,7 @@
 /*-----PRODUCCIONES-----*/
 
 .obras {
-    background-color: #210202;
+    background-color: $color-second;
     width: 100%;
     padding-top: 45px;
     padding-bottom: 90px;
@@ -12,7 +12,7 @@
 }
 
 .obra {
-    background-color: #0e0029;
+    background-color: $color-main;
     width: 30%;
 }
 
@@ -25,14 +25,14 @@
 
 .obra__contenedora {
     padding: 10px;
-    font-family: 'Abel', sans-serif;
+    font-family: $font-main;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 .obra__contenedora h2 {
-    color: #000;
+    color: $color-font-second;
     background-color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -40,14 +40,14 @@
 }
 
 .obra__contenedora h3 {
-    color: #000;
+    color: $color-font-second;
     background-color: #fff;
     text-align: center;
     font-size: 15px;
 }
 
 .obra__contenedora p {
-    color: #fff;
+    color: $color-font-main;
     text-align: center;
     font-size: 18px;
 }
