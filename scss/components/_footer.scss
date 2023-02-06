@@ -1,0 +1,27 @@
+/*-----FOOTER-----*/
+#card {
+    background-color: #0e0029;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#card-title {
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    padding-top: 2.5px;
+
+}
+
+.img-footer {
+    width: 35px;
+}
+
+.img-footer:hover {
+    transform: translateY(-50%);
+    transition: all 2s ease;
+}
