@@ -7,16 +7,16 @@
     bottom: 0;
     display: flex;
     justify-content: center;
-}
 
-#card-title {
-    color: $color-font-main;
-    font-family: $font-main;
-    font-size: 25px;
-    padding-top: 2.5px;
+    #card-title {
+        color: $color-font-main;
+        font-family: $font-main;
+        font-size: 25px;
+        padding-top: 2.5px;
+    
+    }
 
-}
-
+    
 .img-footer {
     width: 35px;
 }
@@ -25,3 +25,7 @@
     transform: translateY(-50%);
     transition: all 2s ease;
 }
+
+}
+
+

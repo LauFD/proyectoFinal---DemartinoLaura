@@ -6,25 +6,26 @@
     width: 100%;
     padding: 10px;
     background-color: #04000a;
-}
 
-.formulario fieldset {
-    border-style: none;
-}
+    fieldset {
+        border-style: none;
+    }
 
-.form legend {
-    text-align: right;
-}
-
-.formulario img {
-    width: 50%;
-    height: 100%;
-    margin-bottom: 50px;
-    object-fit: cover;
-    transform: scaleX(-1);
+    img {
+        width: 50%;
+        height: 100%;
+        margin-bottom: 50px;
+        object-fit: cover;
+        transform: scaleX(-1);
+    }
 }
 
 .form {
+
+    legend {
+        text-align: right;
+    }
+
     background: $color-second;
     color: $color-font-main;
     width: 50%;
@@ -43,14 +44,14 @@
     flex-direction: column;
     gap: 10px;
     font-family: $font-main;
-}
 
-.form__content input {
-    padding: 10px;
-    font-family: $font-main;
-    ;
-    background: #eee;
-    border-radius: 5px;
+    input {
+        padding: 10px;
+        font-family: $font-main;
+        ;
+        background: #eee;
+        border-radius: 5px;
+    }
 }
 
 .form__content__select {
@@ -59,10 +60,10 @@
     width: 70%;
     align-items: center;
     justify-content: space-between;
-}
 
-.form__content textarea {
-    resize: none;
+    textarea {
+        resize: none;
+    }
 }
 
 label {

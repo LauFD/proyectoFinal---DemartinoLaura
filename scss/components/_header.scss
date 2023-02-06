@@ -16,10 +16,10 @@
 
 .logopjr {
     transition: all 1s;
-}
 
-.logopjr:hover {
-    transform: scale(1.2);
+    &:hover {
+        transform: scale(1.2);
+    }
 }
 
 .nav-item {
@@ -30,14 +30,15 @@
 #nav-link-design {
     color: $color-font-main;
     text-decoration: none;
-}
 
-#nav-link-design:hover {
-    animation: change 1s;
-}
+    &:hover {
+        animation: change 1s;
+    }
 
-@keyframes change {
+    @keyframes change {
     25% {
         opacity: 30%;
     }
 }
+}
+
