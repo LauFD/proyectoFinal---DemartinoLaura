@@ -70,15 +70,29 @@
         height: 3%;
     }
 
+    .formulario {
+        img {
+            display: none;
+        }
+    }
+    .form {
+
+        width: 100%;
+        margin-right: 50px;    }
+
+        .button {
+            /*Botones del formulario*/
+            width: 100px;
+            font-size: 20px;
+        }
 }
 
 @media only screen and (max-width: 480px) {
 
-
-
     .video {
         width: 185px;
         height: 250px;
+        
     }
 
     .inicio__parrafo {
@@ -110,5 +124,10 @@
     .obra {
         width: 50%;
     }
+    .form {
+
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;    }
 
 }

@@ -54,18 +54,6 @@
     }
 }
 
-.form__content__select {
-    display: flex;
-    font-family: $font-main;
-    width: 70%;
-    align-items: center;
-    justify-content: space-between;
-
-    textarea {
-        resize: none;
-    }
-}
-
 label {
     padding-top: 10px;
 }
