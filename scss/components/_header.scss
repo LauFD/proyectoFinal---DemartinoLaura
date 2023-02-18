@@ -1,17 +1,11 @@
 /*-----HEADER-----*/
-
-#containerHeader {
+#container-header {
     background-color: $color-main;
     height: auto;
     width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
-}
-
-.headerLogo {
-    margin-top: 0.1%;
-    margin-left: 0.8%;
 }
 
 .logopjr {

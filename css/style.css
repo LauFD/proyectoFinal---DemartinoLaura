@@ -11,17 +11,13 @@ h3 {
   font-family: 'Oswald', sans-serif; }
 
 /*-----HEADER-----*/
-#containerHeader {
+#container-header {
   background-color: #0e0029;
   height: auto;
   width: 100%;
   position: fixed;
   z-index: 1;
   top: 0; }
-
-.headerLogo {
-  margin-top: 0.1%;
-  margin-left: 0.8%; }
 
 .logopjr {
   transition: all 1s; }
@@ -74,7 +70,7 @@ h3 {
     transition: all 2s ease; }
 
 /*-----INICIO-----*/
-.inicio {
+.container-index {
   background-image: url(../assets/Zeus_044.png);
   background-size: 100%;
   background-color: #000;
@@ -83,26 +79,26 @@ h3 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.9fr 1.1fr;
   gap: 0px 0px;
-  grid-template-areas: "inicio1 inicio2" "inicio1 inicio3";
+  grid-template-areas: "index1 index2" "index1 index3";
   margin-bottom: 30px; }
 
-.inicio1 {
-  grid-area: inicio1; }
+.index1 {
+  grid-area: index1; }
 
-.inicio2 {
-  grid-area: inicio2;
+.index2 {
+  grid-area: index2;
   display: flex;
   align-items: center;
   justify-content: center; }
 
-.inicio3 {
-  grid-area: inicio3;
+.index3 {
+  grid-area: index3;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-right: 25%; }
 
-.inicio__parrafo {
+.index-parrafo {
   font-family: "Abel", sans-serif;
   font-size: 30px;
   color: #fff;
@@ -120,29 +116,29 @@ h3 {
   flex-wrap: wrap;
   gap: 20px; }
 
-.persona {
+.conteiner-persona {
   background-color: #0e0029;
   width: 30%; }
 
-.personaImg {
+.persona-img {
   width: 100%;
   height: auto;
   object-fit: cover;
   border: 15px solid #000; }
 
-.persona__contenedora {
+.persona-contenedora {
   padding: 10px;
   font-family: "Abel", sans-serif;
   display: flex;
   flex-direction: column;
   gap: 10px; }
-  .persona__contenedora h2 {
+  .persona-contenedora h2 {
     color: #000;
     background-color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-size: 20px; }
-  .persona__contenedora h3 {
+  .persona-contenedora h3 {
     color: #000;
     background-color: #fff;
     text-align: center;
@@ -159,46 +155,46 @@ h3 {
   flex-wrap: wrap;
   gap: 20px; }
 
-.obra {
+.container-obra {
   background-color: #0e0029;
   width: 30%; }
 
-.obraImg {
+.obra-img {
   width: 100%;
   height: auto;
   object-fit: cover;
   border: 15px solid #000; }
 
-.obra__contenedora {
+.obra-contenedora {
   padding: 10px;
   font-family: "Abel", sans-serif;
   display: flex;
   flex-direction: column;
   gap: 10px; }
-  .obra__contenedora h2 {
+  .obra-contenedora h2 {
     color: #000;
     background-color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-size: 18px; }
-  .obra__contenedora h3 {
+  .obra-contenedora h3 {
     color: #000;
     background-color: #fff;
     text-align: center;
     font-size: 15px; }
-  .obra__contenedora p {
+  .obra-contenedora p {
     color: #fff;
     text-align: center;
     font-size: 18px; }
 
-.logoIgObra:hover {
+.logo-ig-obra:hover {
   transform: scale(1.3);
   transition: all 1s; }
 
-.obra__contenedora__instagram {
+.obra-contenedora-instagram {
   text-align: center;
   justify-content: end; }
-  .obra__contenedora__instagram img {
+  .obra-contenedora-instagram img {
     width: 10%;
     height: 5%; }
 
@@ -233,12 +229,12 @@ h3 {
   .form legend {
     text-align: right; }
 
-.form__content {
+.form-content {
   display: flex;
   flex-direction: column;
   gap: 10px;
   font-family: "Abel", sans-serif; }
-  .form__content input {
+  .form-content input {
     padding: 10px;
     font-family: "Abel", sans-serif;
     background: #eee;
@@ -247,7 +243,7 @@ h3 {
 label {
   padding-top: 10px; }
 
-.form__button {
+.form-button {
   display: flex;
   justify-content: center;
   gap: 10px; }
@@ -267,44 +263,44 @@ label {
   margin-top: 10px; }
 
 @media only screen and (max-width: 900px) {
-  .inicio {
+  .index {
     background-image: none;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 0px 0px;
-    grid-template-areas: "inicio2" "inicio3";
+    grid-template-areas: "index2" "index3";
     margin-bottom: 10px; }
-  .inicio3 {
+  .index3 {
     padding-right: 15%;
     padding-left: 15%; }
   .video {
     width: 185px;
     height: 250px; }
-  .inicio__parrafo {
+  .index-parrafo {
     font-size: 25px;
     text-align: center;
     padding-right: 15%;
     padding-left: 15%; }
   .personas {
     gap: 15px; }
-  .persona {
+  .conteiner-persona {
     width: 40%; }
-  .persona__contenedora h2 {
+  .persona-contenedora h2 {
     font-size: 15px; }
-  .persona__contenedora h3 {
+  .persona-contenedora h3 {
     font-size: 15px; }
   .obras {
     gap: 15px; }
-  .obra {
+  .container-obra {
     width: 40%; }
-  .obra__contenedora h2 {
+  .obra-contenedora h2 {
     font-size: 15px; }
-  .obra__contenedora h3 {
+  .obra-contenedora h3 {
     font-size: 12px; }
-  .obra__contenedora p {
+  .obra-contenedora p {
     font-size: 15px; }
-  .obra__contenedora__instagram img {
+  .obra-contenedora-instagram img {
     width: 8%;
     height: 3%; }
   .formulario img {
@@ -321,7 +317,7 @@ label {
   .video {
     width: 185px;
     height: 250px; }
-  .inicio__parrafo {
+  .index-parrafo {
     font-size: 25px; }
   .card-title {
     font-size: 25px;
@@ -329,13 +325,13 @@ label {
     padding-top: 5px; }
   .personas {
     gap: 10px; }
-  .persona {
+  .conteiner-persona {
     width: 50%; }
-  .persona__contenedora h2 {
+  .persona-contenedora h2 {
     font-size: 10px; }
-  .persona__contenedora h3 {
+  .persona-contenedora h3 {
     font-size: 10px; }
-  .obra {
+  .container-obra {
     width: 50%; }
   .form {
     width: 100%;

@@ -1,6 +1,6 @@
 /*-----INICIO-----*/
 
-.inicio {
+.container-index {
     background-image: url(../assets/Zeus_044.png);
     background-size: 100%;
     background-color: $color-bg;
@@ -10,31 +10,31 @@
     grid-template-rows: 0.9fr 1.1fr;
     gap: 0px 0px;
     grid-template-areas:
-        "inicio1 inicio2"
-        "inicio1 inicio3";
+        "index1 index2"
+        "index1 index3";
     margin-bottom: 30px;
 }
 
-.inicio1 {
-    grid-area: inicio1;
+.index1 {
+    grid-area: index1;
 }
 
-.inicio2 {
-    grid-area: inicio2;
+.index2 {
+    grid-area: index2;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.inicio3 {
-    grid-area: inicio3;
+.index3 {
+    grid-area: index3;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-right: 25%;
 }
 
-.inicio__parrafo {
+.index-parrafo {
     font-family: $font-main;
     font-size: 30px;
     color: $color-font-main;
